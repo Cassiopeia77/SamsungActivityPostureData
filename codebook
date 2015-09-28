@@ -2,9 +2,49 @@ Codebook
 
 VARIABLES in the TIDY DATA SET
 
-Subject                   
-Activity
-tBodyAcc.mean…X
+Subject     
+      Participant assignment in the study
+            1     Participant/Subject number 1
+            2     Participant/Subject number 2
+            3     Participant/Subject number 3
+            4     Participant/Subject number 4
+            5     Participant/Subject number 5
+            6     Participant/Subject number 6
+            7     Participant/Subject number 7
+            8     Participant/Subject number 8
+            9     Participant/Subject number 9
+            10    Participant/Subject number 10
+            11    Participant/Subject number 11
+            12    Participant/Subject number 12
+            13    Participant/Subject number 13
+            14    Participant/Subject number 14
+            15    Participant/Subject number 15
+            16    Participant/Subject number 16
+            17    Participant/Subject number 17
+            18    Participant/Subject number 18
+            19    Participant/Subject number 19
+            20    Participant/Subject number 20
+            21    Participant/Subject number 21
+            22    Participant/Subject number 22
+            23    Participant/Subject number 23
+            24    Participant/Subject number 24
+            25    Participant/Subject number 25
+            26    Participant/Subject number 26
+            27    Participant/Subject number 27
+            28    Participant/Subject number 28
+            29    Participant/Subject number 29
+            30    Participant/Subject number 30
+      
+Activity    
+      The activity that was being carried out when measurements were taken
+            WALKING
+            WALKING_UPSTAIRS
+            WALKING_DOWNSTAIRS
+            SITTING
+            STANDING
+            LAYING
+      
+tBodyAcc.mean…X      
 tBodyAcc.mean…Y
 tBodyAcc.mean…Z
 
