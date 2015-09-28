@@ -47,22 +47,27 @@ Activity
 tBodyAcc.mean…X      
 tBodyAcc.mean…Y
 tBodyAcc.mean…Z
+      Mean value of time domain body accelerometer signals for X, Y and Z directions
 
 tGravityAcc.mean...X       
 tGravityAcc.mean…Y
 tGravityAcc.mean…Z
+      Mean value of time domain gravity accelerometer signals for X, Y and Z directions
 
 tBodyAccJerk.mean...X   
 tBodyAccJerk.mean...Y 
 tBodyAccJerk.mean…Z
+      Mean value of time domain body accelerometer jerk signals for X, Y and Z directions
 
 tBodyGyro.mean…X
 tBodyGyro.mean…Y
 tBodyGyro.mean...Z 
+      Mean value of time domain body gyroscope signals for X, Y and Z directions
 
 tBodyGyroJerk.mean...X     
 tBodyGyroJerk.mean…Y
 tBodyGyroJerk.mean…Z
+      Mean value of time domain body gyroscope jerk signals for X, Y and Z directions
 
 tBodyAccMag.mean..
 
@@ -97,22 +102,27 @@ fBodyBodyGyroJerkMag.mean..
 tBodyAcc.std...X         
 tBodyAcc.std…Y
 tBodyAcc.std…Z
+      Standard deviation value of time domain body accelerometer signals for X, Y and Z directions
 
 tGravityAcc.std...X       
 tGravityAcc.std…Y
 tGravityAcc.std…Z
+      Standard deviation value of time domain gravity accelerometer signals for X, Y and Z directions
 
 tBodyAccJerk.std...X     
 tBodyAccJerk.std…Y
 tBodyAccJerk.std...Z  
+      Standard deviation value of time domain body accelerometer jerk signals for X, Y and Z directions
       
 tBodyGyro.std...X       
 tBodyGyro.std…Y
 tBodyGyro.std…Z
-
+      Standard deviation value of time domain body gyroscope signals for X, Y and Z directions
+      
 tBodyGyroJerk.std…X
 tBodyGyroJerk.std…Y
 tBodyGyroJerk.std…Z
+      Standard deviation value of time domain body gyroscope jerk signals for X, Y and Z directions
 
 tBodyAccMag.std.. 
         
