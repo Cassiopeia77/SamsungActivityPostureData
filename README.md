@@ -41,7 +41,7 @@ Aim of Project:
 The aim of this project was to create 
 (i) A single TIDY DATA SET containing all the mean and std related feature measurements data produced from all 30 participants for each activity they carried out. 
 (ii) Create a second INDEPENDENT TIDY DATA SET with the average of each feature measurement variable for each activity and each subject. 
-The later of these steps is achieved through the run_analysis.R program provided in this repo. To create the initial TIDY DATA SET run_analysis should be truncated to include lines 1 to 72.
+The later of these steps is achieved through the run_analysis.R program provided in this repo. To create the initial TIDY DATA SET run_analysis should be truncated to include lines 1 to 72. All analysis was run using RStudio (version 0.99.441) on a Mac running OS X Yosemite (Version 10.10.4)
 
 ANALYSIS STEPS - see run_analysis.R
 STEP 1: Read the "features.txt" into R using the read.table() function. This provides a table from which a vector of feature names can be extracted. As this vector of names contains brackets, dashes and commas there are not R-compliant variable names. In order to use them as such the vector was passed through the make.names() function. This vector was used later to label the columns of data-frames generated from data in “X_test.txt” and “X_train.txt” files. 
@@ -61,3 +61,5 @@ STEP 7: The allData data frame was then sorted first on the “Subject “ varia
 STEP 8: The resulting re-ordered allData data-frame was then tidied further so that the first column of the data frame was “Subject” and the second column was “Activity”. In the process, the now redundant “Activity_Code” variable was removed from the data-frame. Up to step 8 concludes the generation of the TIDY DATA SET containing all the mean and std related feature measurements data produced from all 30 participants for each activity they carried out.
 
 STEP 9: To generate a second INDEPENDENT TIDY DATA SET with the average of each feature measurement variable for each activity and each subject this additional step was carried out: The allData data-frame was grouped by “Subject” and “Activity” variables using the group_by() function in deployer to create a data frame called GroupedData. The summarise_each() function was then applied to the GroupedData to find the mean of each column for each group in the data frame. The resulting data frame, named, meanSumData has 180 observations for 68 variables (Subject, Activity and mean of each feature measurement). 
+
+
