@@ -70,32 +70,43 @@ tBodyGyroJerk.mean…Z
       Mean value of time domain body gyroscope jerk signals for X, Y and Z directions
 
 tBodyAccMag.mean..
+      Mean value of the magnitude of time domain body accelerometer signals for X, Y and Z directions
 
 tGravityAccMag.mean..
+      Mean value of the magnitude of time domain gravity accelerometer signals for X, Y and Z directions
 
 tBodyAccJerkMag.mean..
+      Mean value of the magnitude of time domain body accelerometer jerk signals for X, Y and Z directions
 
 tBodyGyroMag.mean..
+      Mean value of the magnitude of time domain body gyroscope signals for X, Y and Z directions
 
 tBodyGyroJerkMag.mean..
+      Mean value of the magnitude of time domain body gyroscope jerk signals for X, Y and Z directions
 
 fBodyAcc.mean…X
 fBodyAcc.mean…Y
 fBodyAcc.mean…Z
-
+      Mean value of Fast Fourier Transform (FFT) domain body accelerometer signals for X, Y and Z directions
+      
 fBodyAccJerk.mean…X
 fBodyAccJerk.mean…Y
 fBodyAccJerk.mean…Z
+      Mean value of Fast Fourier Transform (FFT) domain body accelerometer jerk signals for X, Y and Z directions
 
 fBodyGyro.mean…X
 fBodyGyro.mean…Y
 fBodyGyro.mean…Z
+      Mean value of Fast Fourier Transform (FFT) domain body gyroscope signals for X, Y and Z directions
 
 fBodyAccMag.mean..
+      Mean value of the magnitude of Fast Fourier Transform (FFT) domain body accelerometer signals for X, Y and Z directions
 
 fBodyBodyAccJerkMag.mean..
+      Mean value of the magnitude of Fast Fourier Transform (FFT) domain body accelerometer jerk signals for X, Y and Z directions
 
 fBodyBodyGyroMag.mean..
+      
 
 fBodyBodyGyroJerkMag.mean..
 
@@ -125,26 +136,34 @@ tBodyGyroJerk.std…Z
       Standard deviation value of time domain body gyroscope jerk signals for X, Y and Z directions
 
 tBodyAccMag.std.. 
+      Standard deviation value of the magnitude of time domain body accelerometer signals for X, Y and Z directions
         
 tGravityAccMag.std..
+      Standard deviation value of the magnitude of time domain gravity accelerometer signals for X, Y and Z directions
 
 tBodyAccJerkMag.std..
+      Standard deviation value of the magnitude of time domain body accelerometer jerk signals for X, Y and Z directions
 
 tBodyGyroMag.std..    
+      Standard deviation value of the magnitude of time domain body gyroscope signals for X, Y and Z directions
     
 tBodyGyroJerkMag.std..
+      Standard deviation value of the magnitude of time domain body gyroscope jerk signals for X, Y and Z directions
 
 fBodyAcc.std…X
 fBodyAcc.std…Y
 fBodyAcc.std…Z
+      Standard deviation value of Fast Fourier Transform (FFT) domain body accelerometer signals for X, Y and Z directions
 
 fBodyAccJerk.std…X
 fBodyAccJerk.std...Y     
 fBodyAccJerk.std…Z
+      Standard deviatiob value of Fast Fourier Transform (FFT) domain body accelerometer jerk signals for X, Y and Z directions
 
 fBodyGyro.std…X
 fBodyGyro.std...Y         
-fBodyGyro.std...Z   
+fBodyGyro.std...Z 
+      Standard deviation value of Fast Fourier Transform (FFT) domain body gyroscope signals for X, Y and Z directions
        
 fBodyAccMag.std..      
     
