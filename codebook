@@ -70,19 +70,19 @@ tBodyGyroJerk.mean…Z
       Mean value of time domain body gyroscope jerk signals for X, Y and Z directions
 
 tBodyAccMag.mean..
-      Mean value of the magnitude of time domain body accelerometer signals for X, Y and Z directions
+      Mean value of the magnitude of time domain body accelerometer signals
 
 tGravityAccMag.mean..
-      Mean value of the magnitude of time domain gravity accelerometer signals for X, Y and Z directions
+      Mean value of the magnitude of time domain gravity accelerometer signals
 
 tBodyAccJerkMag.mean..
-      Mean value of the magnitude of time domain body accelerometer jerk signals for X, Y and Z directions
+      Mean value of the magnitude of time domain body accelerometer jerk signals
 
 tBodyGyroMag.mean..
-      Mean value of the magnitude of time domain body gyroscope signals for X, Y and Z directions
+      Mean value of the magnitude of time domain body gyroscope signals
 
 tBodyGyroJerkMag.mean..
-      Mean value of the magnitude of time domain body gyroscope jerk signals for X, Y and Z directions
+      Mean value of the magnitude of time domain body gyroscope jerk signals
 
 fBodyAcc.mean…X
 fBodyAcc.mean…Y
@@ -100,15 +100,16 @@ fBodyGyro.mean…Z
       Mean value of Fast Fourier Transform (FFT) domain body gyroscope signals for X, Y and Z directions
 
 fBodyAccMag.mean..
-      Mean value of the magnitude of Fast Fourier Transform (FFT) domain body accelerometer signals for X, Y and Z directions
+      Mean value of the magnitude of Fast Fourier Transform (FFT) domain body accelerometer signals
 
 fBodyBodyAccJerkMag.mean..
-      Mean value of the magnitude of Fast Fourier Transform (FFT) domain body accelerometer jerk signals for X, Y and Z directions
+      Mean value of the magnitude of Fast Fourier Transform (FFT) domain body accelerometer jerk signals
 
 fBodyBodyGyroMag.mean..
-      
+      Mean value of the magnitude of Fast Fourier Transform (FFT) domain body gyrometer signals
 
 fBodyBodyGyroJerkMag.mean..
+      Mean value of the magnitude of Fast Fourier Transform (FFT) domain body gyrometer jerk signals
 
 tBodyAcc.std...X         
 tBodyAcc.std…Y
@@ -139,16 +140,16 @@ tBodyAccMag.std..
       Standard deviation value of the magnitude of time domain body accelerometer signals for X, Y and Z directions
         
 tGravityAccMag.std..
-      Standard deviation value of the magnitude of time domain gravity accelerometer signals for X, Y and Z directions
+      Standard deviation value of the magnitude of time domain gravity accelerometer signals
 
 tBodyAccJerkMag.std..
-      Standard deviation value of the magnitude of time domain body accelerometer jerk signals for X, Y and Z directions
+      Standard deviation value of the magnitude of time domain body accelerometer jerk signals
 
 tBodyGyroMag.std..    
-      Standard deviation value of the magnitude of time domain body gyroscope signals for X, Y and Z directions
+      Standard deviation value of the magnitude of time domain body gyroscope signals
     
 tBodyGyroJerkMag.std..
-      Standard deviation value of the magnitude of time domain body gyroscope jerk signals for X, Y and Z directions
+      Standard deviation value of the magnitude of time domain body gyroscope jerk signals
 
 fBodyAcc.std…X
 fBodyAcc.std…Y
@@ -165,10 +166,14 @@ fBodyGyro.std...Y
 fBodyGyro.std...Z 
       Standard deviation value of Fast Fourier Transform (FFT) domain body gyroscope signals for X, Y and Z directions
        
-fBodyAccMag.std..      
+fBodyAccMag.std..   
+      Standard Deviation value of the magnitude of Fast Fourier Transform (FFT) domain body accelerometer signals
     
 fBodyBodyAccJerkMag.std..
+      Standard Deviation value of the magnitude of Fast Fourier Transform (FFT) domain body accelerometer jerk signals
 
 fBodyBodyGyroMag.std..
+      Standard Deviation value of the magnitude of Fast Fourier Transform (FFT) domain body gyrometer signals
 
 fBodyBodyGyroJerkMag.std..
+      Standard Deviation value of the magnitude of Fast Fourier Transform (FFT) domain body gyrometer jerk signals
